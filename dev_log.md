@@ -601,3 +601,20 @@ Turn-by-turn, high-level log of how this game is built, maintained by the orches
 - Lessons: a placeholder in code is not always on screen (all characters already had modelled hats, and we paid for
   replacement hats nobody sees), and a game launched mid-build kept getting an hour-old copy until the build loop
   started preparing the play copy itself.
+
+### 2026-11-15 17:00 EST — Heist, a quieter frame and a menu that makes sense
+- Playtests showed nobody ever played the 4v4 objective: every round ended in a plain shootout. The human redesigned
+  it as a new mode, **Heist**: the outlaws start inside the bank and crack the safe, grab the whole gold bag in one
+  go, and must get it onto a train that waits two minutes; the newly named Marshals ride in on that train and win by
+  killing every outlaw or running out the clock. Wiping out the Marshals no longer ends a round, so the gold has to
+  move. The old Shootout lives on in Deleted Scenes, now its own top-level menu entry.
+- The menu was folded into one Start Game screen (Offline, Lobby Code or Raw IP Address, with the same round settings
+  everywhere), and every saloon in the gold rush town now serves healing whisky.
+- A frame-time pass found the tornado's cost was not the number of flying boards but the lighting recomputing
+  every time one moved; taking debris and small moving props out of that lighting cut the twister's worst frames
+  from 23 ms to about 9 ms with no visible change.
+- The day's red network checks turned out to be six stale tests (two-word names, the new 7-round flow, the raised
+  fall height) and one real bug (perk drops landing on the gold sack); the build loop also learned to restart itself
+  after it had silently died on an edit to its own script.
+- First Windows packages came out of the build VM after two compile errors that only MSVC catches; the strict Linux
+  build now catches shadowed names as well.
