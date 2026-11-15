@@ -2,5 +2,29 @@
 
 Notes from our Unreal Engine entry to the [2026 Epic AI MegaJam](https://itch.io/jam/2026-epic-ai-megajam).
 
-- [authors_notes.txt](authors_notes.txt): how the game was made, in the author's words
+- [Author notes](#author-notes): how the game was made, in the author's words (below)
 - [dev_log.md](dev_log.md): the timeline of the build, entry by entry
+
+## Author notes
+
+Hi, I'm Kyle Finn, software engineer unrelated to games, and I really enjoyed playing intense multi-player shooter games like UT, CSGO, PUBG, etc.
+
+I've thought for a long time it would be fun to make my own shooter game, but never made the time for it.
+
+Seeing the games people have been vibe-coding lately, and this contest promoting vibe coding a game, it felt like the right time and time-box to just go for it.
+
+In the spirit of the contest I'm trying to go as AI-native as possible. That means commanding an agent team, not looking at any code, and not touching any 3d or audio editor tools myself. I also wanted to see how far a modest budget could be pushed, so I bought \$100 month of claude subscription, and \$25 on OpenRouter to use on DeepSeekv4.1 Flash, as my only out-of-pocket expenses. Of course I claimed the contest sponsor credits as well (but missed the window for claude credits).
+
+My agent team was structured with Fable at the top as my chat session, and Opus and DeepSeek workers spawned at its discretion, with Fable intervening when necessary if workers got off track or stuck. Fable was told to delegate everything to save credits and keep the main sessions tidy for longer horizon conversations. Still I found it filling up after 8-12 hours and I would start fresh sessions.
+
+My workflow was mostly giving Fable 5-10 things to do at a time, and going back to my day job or sleeping for a few hours, and checking back. The worker agents liked to run lots of tests and simulations to validate things, so most feature requests took 1-2 hours, but they could be parallelized.
+
+I had to intervene on audio fx / foley - I couldn't get ai code-synthesized or ai generated audio to come close to what I wanted. I found some sounds on Freesound, and recorded some others in my garage. And then I told the AI how I wamted it chopped and edited, which seemed to work quite well, so at no point did I open audio editing software.
+
+Amusingly, like a throwback to early stable diffusion models, the character hands were one of the hardest aspects of the project. Somewhere between meshy and rigging, and aligning hands to gun poses... hands got mangled and deformed into a hot mess. I had agents build fixtures and processes to use image feedback before passing along to me to QA review, and then many iterations of me telling it which joints were bent the wrong way or curly-fried or whatever.
+
+We ended up building a QA / ticketing app to keep my time efficient on reviewing all the meshes, effects, game mechanics, audio, etc everything one at a time on a big dashboard, where I could flag what's wrong with what quickly, and see which things agents were working on vs backlogged. It was easily a 10x productivity boost compared to end to end play testing.
+
+I found myself often hit claude limits working this way, used my resets, started running cursor-grok sessions to use the free credits from the contest while claude was out, but it wasn't using my agent harness and didn't cooperate with the merge queue my main agent built, leading to som tasks reverting other tasks, and needing extra cleanup. So when my claud limits reset, I switched to Opus-Sonnet-DeepSeek to be more cost efficient. I don't notice much difference.
+
+I did some multi-player testing with some old gaming friends from csgo/pubg days, and we were totally entranced by the fact that everything we didn't like about the game can be fixed within minutes, rather than month/years you get from a big production game. The mechanics and game loop arrived at a deeply satisfying place for FPS fans. We played until 6am EST the night before the deadline, and the game had new features, mechanics, and fixes every hour.
