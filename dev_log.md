@@ -618,3 +618,16 @@ Turn-by-turn, high-level log of how this game is built, maintained by the orches
   after it had silently died on an edit to its own script.
 - First Windows packages came out of the build VM after two compile errors that only MSVC catches; the strict Linux
   build now catches shadowed names as well.
+
+### 2026-11-15 19:15 EST — Final evening: Heist polish from live playtests
+- Evening playtests with bots and friends drove a run of small fixes to Heist: the safe now works exactly like the
+  gold rush's (same sound and prompt, look-at to crack, gold to the cracker at once), the gold beacon shows only to
+  outlaws and only while the bag lies on the ground, killing the carrier aboard cancels the train's departure, and the
+  train waits on the gold rush's own ticket with live team counts.
+- Bots stopped jamming doorways: one explicit cracker, the other outlaws fan out to a perimeter in nearby buildings,
+  marshals scatter from the train, and carriers walk deep into the boxcar. Dead players can take over a living
+  teammate bot with the Use key.
+- Bugs found in play and fixed: a rematch that grew teams to 7 v 7 (bots carried over by seamless travel), a client
+  crash on rematch (a HUD read during travel), first-person arms floating over cutscenes, floating guns during the
+  train's arrival, crouched players stuck at ledges, and stepped roof collision.
+- The clapperboards became plain chalk on a dark slate, and the end-of-match board sizes to its content.
