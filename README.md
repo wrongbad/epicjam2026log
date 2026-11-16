@@ -2,7 +2,8 @@
 
 Notes from our Unreal Engine entry to the [2026 Epic AI MegaJam](https://itch.io/jam/2026-epic-ai-megajam).
 
-- [dev_log.md](dev_log.md): detaild timeline of the build, changes, fixes, pivots, etc.
+- [dev_log.md](dev_log.md): detailed timeline of the build, changes, fixes, pivots, etc.
+- [repo_stats.md](repo_stats.md): top-level break-down of code and assets
 
 ## Before and During the Jam
 
