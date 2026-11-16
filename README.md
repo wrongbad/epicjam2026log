@@ -46,4 +46,4 @@ On another dimension, I think some larger battle royale maps with horses for tra
 
 And third, a little investment in auto-scaling dedicated servers and player stats/elo databases would bring multiplayer experience to today's high standards.
 
-And fourth, I personally believe in keeping the community server spirit alive and strong. Unreal Tournament showed the world how cool it is to let the community decide how to play the game, by hosting games with their own rules and assets. Let friends self-organize private matches (like counterstrike "10 man" culture). I feel this is 
+And fourth, the game already supports peer-to-peer hosting, and I’d keep that first-class alongside public matchmaking rather than going all in on it. Unreal Tournament showed the world how cool it is to let the community decide how to play, by hosting games with their own rules and assets, and Counter-Strike’s “10 man” culture showed how well friends self-organize private matches. As people increasingly throw exploitation and automation at public leaderboards, many of us may turn to private and community matches to go back to the roots of just having fun in online gaming.
