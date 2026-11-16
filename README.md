@@ -1,6 +1,6 @@
 # Epic AI MegaJam 2026: dev log and author notes
 
-Notes from our Unreal Engine entry to the [2026 Epic AI MegaJam](https://itch.io/jam/2026-epic-ai-megajam).
+Notes from our Unreal Engine entry to the [2026 Epic AI MegaJam](https://itch.io/jam/2026-epic-ai-megajam) entry: [Polvere](https://sqrrlly.itch.io/polvere-epic2026).
 
 The game: Polvere is a fast, punishing multiplayer wild-west shooter with period-accurate single-action gunplay: fan the hammer, fight blind through your own black powder smoke, lean, vault, go prone, and shoot through walls. It has two modes. Gold Rush is a free-for-all extraction: loot up, shoot it out, and make the train before the tornadoes level the town. Heist is 4v4, round-based: Outlaws crack the bank safe and run for the train while Marshals try to stop them. Host a game and share the lobby code to play with friends.
 
