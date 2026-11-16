@@ -5,6 +5,13 @@ Notes from our Unreal Engine entry to the [2026 Epic AI MegaJam](https://itch.io
 - [dev_log.md](dev_log.md): detailed timeline of the build, changes, fixes, pivots, etc.
 - [repo_stats.md](repo_stats.md): top-level break-down of code and assets
 
+## Repo Stats
+
+- The private git repo has about 100k lines of engine/runtime code, and 75k lines of tests and tools.
+- There are also 1,173 binary asset files totalling 817 MB
+- All of it added to git and git-lfs in 1,381 commits over 4 days
+- See [repo_stats.md](repo_stats.md) for a more detailed breakdown
+
 ## Before and During the Jam
 
 Hi, I'm Kyle Finn, software engineer unrelated to games, and I really enjoyed playing intense multi-player shooter games like UT, CSGO, PUBG, etc.
