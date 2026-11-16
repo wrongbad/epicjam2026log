@@ -20,7 +20,7 @@ Hi, I'm Kyle Finn, a software engineer, and I really enjoyed playing intense mul
 
 I've thought for a long time it would be fun to make my own shooter game, but never made the time for it.
 
-Seeing the games people have been vibe-coding lately, and this contest promoting vibe coding a game, it felt like the right time and time-box to just go for it.
+Seeing the games people have been vibe-coding lately, and this contest promoting vibe coding a game, it felt like the right time and time-box to just go for it. Special shoutout to Saltline by Felix Rieseberg - seeing that game from a half-day session gave me the confidence to shoot for the moon in this 4 day jam.
 
 In the spirit of the contest I'm trying to go as AI-native as possible. That means commanding an agent team, not looking at any code, and not touching any 3d or audio editor tools myself. I also wanted to see how far a modest budget could be pushed, so I bought \$100 month of claude subscription, and \$25 on OpenRouter to use on DeepSeekv4.1 Flash, as my only out-of-pocket expenses. Of course I claimed the contest sponsor credits as well (but missed the window for claude credits).
 
