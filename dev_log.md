@@ -632,7 +632,7 @@ Turn-by-turn, high-level log of how this game is built, maintained by the orches
   train's arrival, crouched players stuck at ledges, and stepped roof collision.
 - The clapperboards became plain chalk on a dark slate, and the end-of-match board sizes to its content.
 
-### 2026-11-15 19:45 EST — Submitted
+### 2026-11-15 20:08 EST — Submitted
 - Last fixes from the final playtest: the bot takeover works for the host too, end-of-match boards fit their content
   with a short Rematch / Settings / Main Menu / Quit menu beside them, Deleted Scenes entries launch by name, the
   host-wait screen shows the lobby code, and the gold rush round settings start from the defaults every time.
